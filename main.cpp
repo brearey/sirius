@@ -3,6 +3,10 @@
 using namespace std;
 
 int main() {
-    cout << "Hello, World!" << endl;
+    long long carSpeed;
+    long long time;
+    cin >> carSpeed >> time;
+    long long dist = carSpeed * time;
+    cout << dist;
     return 0;
 }
